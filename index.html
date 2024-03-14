@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Motion Path</title>
+  <style>
+    @keyframes rotate {
+      0% {
+        transform: perspective(100px) rotateY(0);
+      }
+      
+      16% {
+        transform: perspective(100px) rotateY(180deg);
+      }
+
+      32% {
+        transform: perspective(100px) rotateY(360deg);
+      }
+
+      64% {
+        transform: perspective(100px) rotateY(540deg);
+      }
+
+      100% {
+        transform: perspective(100px) rotateY(720deg);
+      }
+    }
+
+    html, body {
+      padding: 0;
+      margin: 0;
+    }
+
+    p {
+      margin: 8px 0;
+    }
+
+    #svg-container, #path-paint-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 1000px;
+      height: 668px;
+    }
+
+    #svg-container {
+      background: url('/static/map.png') 0 0 / 1000px 668px no-repeat;
+    }
+
+    #operator {
+      position: absolute;
+      right: 8px;
+      top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/MotionPathHelper.min.js"></script>
+  <div id="svg-container"></div>
+
+  <div id="path-paint-container"></div>
+
+  <div id="operator">
+    <button id="play">开始</button>
+    <button id="pause">暂停</button>
+    <button id="restart">重新开始</button>
+    <button id="paint">路径绘制</button>
+  </div>
+</body>
+<script src="index.js" type="module"></script>
+</html>

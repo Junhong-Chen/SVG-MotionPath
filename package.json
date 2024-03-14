@@ -1,0 +1,23 @@
+{
+  "name": "svg-motion-path",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "运动路径",
+  "main": "packages/SVGMotionPath.js",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Junh",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^1.1.1"
+  },
+  "dependencies": {
+    "gsap": "^3.12.5",
+    "gsap-trial": "^3.12.5"
+  }
+}
