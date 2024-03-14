@@ -45,7 +45,7 @@ const motionPath = new SVGMotionPath('#svg-container', data, {
       dash: '20 40',
     },
     node: {
-      images: ['/static/bus-stop.png'],
+      images: ['/static/images/bus-stop.png'],
       offsetX: 0,
       offsetY: -22,
       radius: 24,
@@ -54,7 +54,7 @@ const motionPath = new SVGMotionPath('#svg-container', data, {
       borderColor: 'transparent',
     },
     mobile: {
-      image: '/static/airship.png',
+      image: '/static/images/airship.png',
       size: [50, 50],
       fill: 'gold',
       borderWidth: 2,

@@ -158,4 +158,4 @@ const data = [ // 支持传入坐标或 svg 路径命令，坐标原点为父容
 在 Path 实例上通过 addEventListener 方法监听某个事件类型，也可通过 removeEventListener 对事件监听进行移除。
 
 ### 效果图
-![](./static/motionpath.gif)
+![](./screenshots/motionpath.gif)
