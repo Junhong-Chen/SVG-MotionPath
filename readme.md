@@ -1,5 +1,5 @@
 # 路径动画
-基于 gsap 动画库封装的 SVG 路径动画绘制工具。更多关于路径动画的使用方法及案例，可以参考 gsap MotionPath。
+基于 gsap 动画库封装的 SVG 路径动画绘制工具。更多关于路径动画的使用方法及案例，可以参考 [gsap MotionPath](https://gsap.com/docs/v3/Plugins/MotionPathPlugin/)。
 
 ### 创建实例
 ```html

@@ -1,8 +1,8 @@
 {
   "name": "svg-motion-path",
   "type": "module",
-  "version": "0.1.0",
-  "description": "运动路径",
+  "version": "0.1.1",
+  "description": "motion path",
   "main": "packages/SVGMotionPath.js",
   "scripts": {
     "dev": "rollup -c -w",
