@@ -1,7 +1,7 @@
 {
   "name": "svg-motion-path",
   "type": "module",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "motion path",
   "main": "packages/SVGMotionPath.js",
   "scripts": {
@@ -9,8 +9,20 @@
     "build": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Junh",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Junhong-Chen/SVG-MotionPath.git"
+  },
+  "author": "Junhong-Chen",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Junhong-Chen/SVG-MotionPath/issues"
+  },
+  "homepage": "https://github.com/Junhong-Chen/SVG-MotionPath#readme",
+  "files": [
+    "SVGMotionPath.js",
+    "README.md"
+  ],
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.2.3",
     "rollup-plugin-livereload": "^2.0.5",
